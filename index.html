@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Industriall Soluções - Soluções integradas para o setor industrial de forma simplificada">
+    <title>Industriall Soluções</title>
+    <link rel="icon" type="image/png" href="images/bar.png">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- HEADER/NAVBAR -->
+    <header class="navbar">
+        <div class="container">
+            <div class="navbar-brand">
+                <img src="images/logo.jpg" class="logo" alt="Industriall Soluções">
+              
+            </div>
+            <nav class="navbar-menu" id="navbarMenu">
+                <a href="#home" class="nav-link active">Início</a>
+                <a href="#servicos" class="nav-link">Serviços</a>
+                <a href="#sobre" class="nav-link">Sobre</a>
+                <a href="#areas" class="nav-link">Áreas de Atuação</a>
+                <a href="#parceiros" class="nav-link">Parceiros</a>
+                <a href="#contato" class="nav-link">Contato</a>
+            </nav>
+            <button class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section id="home" class="hero" data-watermark data-watermark-size="large">
+        <div class="hero-slider" aria-label="Carrossel de imagens da indústria">
+            <div class="hero-slide active">
+                <img src="images/slide1.jpg" alt="Indústria moderna 1">
+            </div>
+            <div class="hero-slide">
+                <img src="images/slide2.jpg" alt="Indústria moderna 2">
+            </div>
+            <div class="hero-slide">
+                <img src="images/slide3.jpg" alt="Indústria moderna 3">
+            </div>
+            <div class="hero-slide">
+                <img src="images/slide5.jpg" alt="Indústria moderna 4">
+            </div>
+
+            <div class="hero-overlay"></div>
+
+            <div class="hero-content">
+                <div class="hero-badge">Soluções industriais completas</div>
+                <h1 class="hero-title">Sua empresa bem estruturada, da elaboração do projeto à execução</h1>
+                <p class="hero-subtitle">Engenharia, gestão, planejamento e suprimentos em um único parceiro</p>
+                <div class="hero-buttons">
+                    <a href="#contato" class="btn btn-primary">Solicitar Orçamento</a>
+                    <a href="#servicos" class="btn btn-secondary">Ver Nossos Serviços</a>
+                </div>
+            </div>
+
+            <button class="hero-slider-btn prev" type="button" aria-label="Imagem anterior">&#10094;</button>
+            <button class="hero-slider-btn next" type="button" aria-label="Próxima imagem">&#10095;</button>
+
+            <div class="hero-slider-dots" aria-label="Seleção de imagens">
+                <span class="dot active" data-slide="0"></span>
+                <span class="dot" data-slide="1"></span>
+                <span class="dot" data-slide="2"></span>
+                <span class="dot" data-slide="3"></span>
+            </div>
+        </div>
+    </section>
+
+    <!-- SERVIÇOS PRINCIPAIS -->
+    <section id="servicos" class="servicos">
+        <div class="container">
+            <h2 class="section-title">Nossos Serviços</h2>
+            <p class="section-subtitle">Soluções completas e personalizadas para sua empresa</p>
+            
+            <div class="servicos-grid">
+                <div class="servico-card">
+                    <div class="servico-icon">
+                        <i class="fas fa-cogs"></i>
+                    </div>
+                    <h3>Engenharia Mecânica</h3>
+                    <p>Projetos mecânicos, execução de serviços técnicos e soluções voltadas à infraestrutura e otimização de processos para indústria.</p>
+                </div>
+
+                <div class="servico-card">
+                    <div class="servico-icon">
+                        <i class="fas fa-bolt"></i>
+                    </div>
+                    <h3>Engenharia Elétrica</h3>
+                    <p>Soluções especializadas em instalações, manutenção e otimização de sistemas elétricos industriais.</p>
+                </div>
+
+                <div class="servico-card">
+                    <div class="servico-icon">
+                        <i class="fas fa-boxes"></i>
+                    </div>
+                    <h3>Fornecimento de Materiais</h3>
+                    <p>Materiais industriais de todas as áreas. Alta qualidade com garantia de confiabilidade e agilidade para seu negócio.</p>
+                </div>
+
+                <div class="servico-card">
+                    <div class="servico-icon">
+                        <i class="fas fa-users-cog"></i>
+                    </div>
+                    <h3>Mão de Obra Especializada</h3>
+                    <p>Profissionais qualificados para atender demandas operacionais, técnicas, corporativas e administrativas.</p>
+                </div>
+
+                <div class="servico-card">
+                    <div class="servico-icon">
+                        <i class="fas fa-file-contract"></i>
+                    </div>
+                    <h3>Gestão de Contratos</h3>
+                    <p>Experiência em gestão contratual, licitações públicas e suporte a projetos estratégicos.</p>
+                </div>
+
+                <div class="servico-card">
+                    <div class="servico-icon">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <h3>Automação Industrial</h3>
+                    <p>Soluções de automação e controle para aumentar eficiência, precisão e confiabilidade operacional.</p>
+                </div>
+
+                <div class="servico-card">
+                    <div class="servico-icon">
+                        <i class="fas fa-drafting-compass"></i>
+                    </div>
+                    <h3>Topografia e Agrimensura</h3>
+                    <p>Levantamentos topográficos e georreferenciamento com tecnologia RTK, drones e estação total, garantindo precisão milimétrica para seu projeto.</p>
+                </div>
+
+                <div class="servico-card">
+                    <div class="servico-icon">
+                        <i class="fas fa-project-diagram"></i>
+                    </div>
+                    <h3>Planejamento de Projetos</h3>
+                    <p>Estruturação Analítica de Projetos, organização e acompanhamento de projetos, CURVA S, foco em prazos, custos, escopo e execução eficiente.</p>
+                </div>
+
+                <div class="servico-card">
+                    <div class="servico-icon">
+                        <i class="fas fa-hard-hat"></i>
+                    </div>
+                    <h3>Segurança do Trabalho</h3>
+                    <p>Consultoria e implementação de boas práticas, normas, documentação técnica e procedimentos para garantir segurança operacional e conformidade.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SOBRE A EMPRESA -->
+    <section id="sobre" class="sobre">
+        <div class="container">
+            <div class="sobre-content">
+                <div class="sobre-text">
+                    <h2>Sobre a Industriall Soluções</h2>
+                    <p>Sediada em Imperatriz, no Maranhão, a Industriall Soluções é uma empresa especializada em fornecer soluções integradas para os setores industrial, corporativo e público.</p>
+                    <p>Atuamos com excelência, segurança e compromisso com resultados, alando engenharia, gestão e suprimentos para oferecer suporte estratégico a empresas de diversos segmentos.</p>
+                    <p>Nos destacamos por conectar <strong>engenharia, tecnologia e gestão</strong> para gerar valor, eficiência e resultados sustentáveis.</p>
+                    
+                    <div class="sobre-highlights-wrapper">
+                        <div class="sobre-highlights">
+                            <div class="highlight highlight-excelencia">
+                                <i class="highlight-icon fas fa-medal"></i>
+                                <h4><i class="fas fa-check-circle"></i> Excelência</h4>
+                                <p>Qualidade em todos os serviços</p>
+                            </div>
+                            <div class="highlight highlight-seguranca">
+                                <i class="highlight-icon fas fa-shield-alt"></i>
+                                <h4><i class="fas fa-check-circle"></i> Segurança</h4>
+                                <p>Protocolos rigorosos e confiáveis</p>
+                            </div>
+                            <div class="highlight highlight-resultados">
+                                <i class="highlight-icon fas fa-chart-line"></i>
+                                <h4><i class="fas fa-check-circle"></i> Resultados</h4>
+                                <p>Compromisso com produtividade</p>
+                            </div>
+                            <div class="highlight highlight-consultoria">
+                                <i class="highlight-icon fas fa-user-tie"></i>
+                                <h4><i class="fas fa-check-circle"></i> Consultoria</h4>
+                                <p>Apoio em todos os setores produtivos e acompanhamento de obras.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="sobre-lista-para-empresa">
+                        <div class="sobre-lista-item">
+                            <span class="sobre-lista-numero">01</span>
+                            <div class="sobre-lista-texto">
+                                <h4>Planejamento de projetos</h4>
+                                <p>Definição de escopo, cronograma, recursos e metas para execução segura, eficiente e alinhada ao objetivo industrial.</p>
+                            </div>
+                        </div>
+                        <div class="sobre-lista-item">
+                            <span class="sobre-lista-numero">02</span>
+                            <div class="sobre-lista-texto">
+                                <h4>Montagem e desmontagem</h4>
+                                <p>Execução técnica de estruturas, sistemas e equipamentos com planejamento, segurança e organização operacional.</p>
+                            </div>
+                        </div>
+                        <div class="sobre-lista-item">
+                            <span class="sobre-lista-numero">03</span>
+                            <div class="sobre-lista-texto">
+                                <h4>Piping e despoeiramento</h4>
+                                <p>Instalação e manutenção de linhas industriais, sistemas de coleta e equipamentos para melhor desempenho da planta.</p>
+                            </div>
+                        </div>
+                        <div class="sobre-lista-item">
+                            <span class="sobre-lista-numero">04</span>
+                            <div class="sobre-lista-texto">
+                                <h4>Manutenção e máquinas</h4>
+                                <p>Instalação, inspeção, manutenção preventiva e corretiva para manter a produção estável e segura.</p>
+                            </div>
+                        </div>
+                        <div class="sobre-lista-item">
+                            <span class="sobre-lista-numero">05</span>
+                            <div class="sobre-lista-texto">
+                                <h4>Consultoria multidisciplinar</h4>
+                                <p>Suporte em segurança, engenharia, TI e demais áreas estratégicas para fortalecer a operação industrial.</p>
+                            </div>
+                        </div>
+                        <div class="sobre-lista-item">
+                            <span class="sobre-lista-numero">06</span>
+                            <div class="sobre-lista-texto">
+                                <h4>Unidades de armazenamento</h4>
+                                <p>Auxiliamos na montagem e desmontagem de silos e unidades de armazenamento de grãos com planejamento técnico e execução segura.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="portfolio-content-column">
+                        <div class="portfolio-header-images"></div>
+                        <div class="portfolio-highlights">
+                            <div class="portfolio-highlight">
+                                <h4><i class="fas fa-ruler-combined"></i> Planejamento de projetos</h4>
+                                <ul>
+                                    <li>Definição de escopo, cronograma, recursos e metas para execução segura e eficiente.</li>
+                                    <li>Organização de etapas de projeto com acompanhamento técnico e controle de riscos.</li>
+                                    <li>Estruturação de soluções alinhadas à operação industrial, custo e prazo.</li>
+                                </ul>
+                            </div>
+                            <div class="portfolio-highlight">
+                                <h4><i class="fas fa-tools"></i> Montagem, desmontagem e manutenção</h4>
+                                <ul>
+                                    <li>Montagem e desmontagem de sistemas industriais com planejamento técnico e execução segura.</li>
+                                    <li>Instalação e manutenção de máquinas industriais, adequando equipamentos à operação da planta.</li>
+                                    <li>Execução de serviços em piping de sistemas de despoeiramento, manutenção corretiva e preventiva.</li>
+                                </ul>
+                            </div>
+                            <div class="portfolio-highlight">
+                                <h4><i class="fas fa-shield-alt"></i> Consultoria e suporte multidisciplinar</h4>
+                                <ul>
+                                    <li>Assistência em segurança do trabalho, engenharia, tecnologia da informação e demais áreas estratégicas da indústria.</li>
+                                    <li>Suporte técnico para otimização de processos, modernização de sistemas e aumento de desempenho.</li>
+                                    <li>Atendimento com visão holística da operação, conectando infraestrutura, pessoal e tecnologia.</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="portfolio-contratos">
+                            <h4><i class="fas fa-file-contract"></i> Execução com qualidade, segurança e resultado</h4>
+                            <p>Nosso trabalho é desenvolvido com foco em contratos claros, acompanhamento técnico contínuo e execução orientada por qualidade, custo, prazo e segurança. Cada etapa é planejada para entregar desempenho confiável, menores riscos operacionais e melhores resultados para a indústria.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="sobre-image">
+                    <img src="images/topo.jpg" alt="Topografia e levantamento">
+                    <img src="images/equipamento.jpg" alt="Equipamento industrial">
+                    <img src="images/silos.jpg" alt="Silos industriais">
+                    <img src="images/area-infraestrutura.jpeg" alt="area-infraestrutura">
+                    <img src="images/passadico.jpg" alt="Silos industriais">
+                    <img src="images/trabalhador1.jpg" alt="trabalhador">
+                    <img src="images/estrutura1.jpg" alt="estrutura">
+                    <img src="images/images.jpg" alt="images">
+                    <img src="images/silo3.jpg" alt="silo3">
+                    <img src="images/topo1.jpg" alt="topo1">
+
+
+                    <div class="sobre-topografia">
+                        <div class="topografia-icon">
+                            <i class="fas fa-drafting-compass"></i>
+                        </div>
+                        <h3>Topografia, Levantamento e Agrimensura</h3>
+                        <p>Executamos levantamentos planialtimétricos cadastrais completos, do reconhecimento de campo à entrega final, com precisão milimétrica em cada etapa do processo. Nossa equipe realiza georreferenciamento de imóveis rurais e urbanos com certificação junto ao INCRA, elaborando memorial descritivo, planta planialtimétrica e demarcação de limites conforme a legislação vigente.</p>
+                        <p>Utilizamos receptores RTK de alta precisão, drones equipados com câmeras de mapeamento e estação total robotizada para gerar curvas de nível, ortomosaicos aéreos georreferenciados e modelos digitais de terreno (MDT), sempre seguindo os padrões técnicos da NBR 13133. O resultado é uma base cartográfica confiável, pronta para embasar projetos de engenharia, licenciamento ambiental e regularização fundiária.</p>
+                        <div class="topografia-tech">
+                            <span><i class="fas fa-satellite-dish"></i> RTK</span>
+                            <span><i class="fas fa-helicopter"></i> Drones</span>
+                            <span><i class="fas fa-map-marked-alt"></i> Estação Total</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ÁREAS DE ATUAÇÃO -->
+    <section id="areas" class="areas">
+        <div class="container">
+            <h2 class="section-title">Áreas de Atuação</h2>
+            <p class="section-subtitle">Experiência comprovada em diversos setores</p>
+            
+            <div class="areas-grid">
+                <div class="area-card">
+                    <img src="images/area-industrial.jpg" alt="Setor Industrial">
+                    <div class="area-content">
+                        <h3>Setor Industrial</h3>
+                        <p>Soluções completas para plantas, fábricas e processos industriais.</p>
+                    </div>
+                </div>
+
+                <div class="area-card">
+                    <img src="images/area-corporativo.jpg" alt="Setor Corporativo">
+                    <div class="area-content">
+                        <h3>Setor Corporativo</h3>
+                        <p>Suporte estratégico para empresas e organizações privadas.</p>
+                    </div>
+                </div>
+
+                <div class="area-card">
+                    <img src="images/area-publico.jpg" alt="Setor Público">
+                    <div class="area-content">
+                        <h3>Setor Público</h3>
+                        <p>Participação em licitações e projetos governamentais.</p>
+                    </div>
+                </div>
+
+                <div class="area-card">
+                    <img src="images/area-infraestrutura.jpeg" alt="Infraestrutura">
+                    <div class="area-content">
+                        <h3>Infraestrutura</h3>
+                        <p>Projetos e instalações de infraestrutura industrial.</p>
+                    </div>
+                </div>
+
+                <div class="area-card">
+                    <img src="images/area-manutencao.jpg" alt="Manutenção">
+                    <div class="area-content">
+                        <h3>Manutenção</h3>
+                        <p>Serviços de manutenção preventiva e corretiva.</p>
+                    </div>
+                </div>
+
+                <div class="area-card">
+                    <img src="images/area-otimizacao.jpg" alt="Otimização">
+                    <div class="area-content">
+                        <h3>Otimização de Processos</h3>
+                        <p>Consultoria para eficiência operacional e sustentabilidade.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- DIFERENCIAIS -->
+    <section class="diferenciais" data-watermark data-watermark-size="medium">
+        <div class="container">
+            <h2 class="section-title">Por que escolher a Industriall Soluções?</h2>
+            <div class="diferenciais-grid">
+                <div class="diferencial">
+                    <div class="diferencial-number">01</div>
+                    <h3>Experiência Comprovada</h3>
+                    <p>Anos de atuação em diversos segmentos industriais com resultados comprovados.</p>
+                </div>
+                <div class="diferencial">
+                    <div class="diferencial-number">02</div>
+                    <h3>Equipe Qualificada</h3>
+                    <p>Profissionais especializados em engenharia, gestão e operações industriais.</p>
+                </div>
+                <div class="diferencial">
+                    <div class="diferencial-number">03</div>
+                    <h3>Soluções Personalizadas</h3>
+                    <p>Atendimento customizado às demandas específicas de cada cliente.</p>
+                </div>
+                <div class="diferencial">
+                    <div class="diferencial-number">04</div>
+                    <h3>Compromisso com Resultados</h3>
+                    <p>Foco em entregar valor, eficiência e crescimento sustentável.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTATO -->
+    <section id="contato" class="contato">
+        <div class="container">
+            <h2 class="section-title">Entre em Contato</h2>
+            <p class="section-subtitle">Estamos prontos para ajudar sua empresa a crescer</p>
+            
+            <div class="contato-content">
+                <div class="contato-info">
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Localização</h4>
+                            <p>Imperatriz, Maranhão - Brasil</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h4>Telefone</h4>
+                            <p>(99) 98275-5212</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>E-mail</h4>
+                            <p>comercial@industriallsolucoes.com.br</p>
+                        </div>
+                    </div>
+                    <div class="info-item social-item">
+                        <i class="fab fa-linkedin"></i>
+                        <div>
+                            <h4>LinkedIn</h4>
+                            <a href="https://www.linkedin.com/company/industriall-soluções/" target="_blank" rel="noopener noreferrer">linkedin.com/company/industriall-soluções</a>
+                        </div>
+                    </div>
+                    <div class="info-item social-item">
+                        <i class="fab fa-instagram"></i>
+                        <div>
+                            <h4>Instagram</h4>
+                            <a href="https://www.instagram.com/industriallsolucoes/" target="_blank" rel="noopener noreferrer">@industriallsolucoes</a>
+                        </div>
+                    </div>
+                </div>
+
+                <form class="contato-form" id="contactForm">
+                    <div class="form-group">
+                        <input type="text" name="nome" placeholder="Seu Nome" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" name="email" placeholder="Seu E-mail" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="tel" name="telefone" placeholder="Seu Telefone">
+                    </div>
+                    <div class="form-group">
+                        <select name="servico" required>
+                            <option value="">Selecione um Serviço</option>
+                            <option value="mecanica">Engenharia Mecânica</option>
+                            <option value="eletrica">Engenharia Elétrica</option>
+                            <option value="materiais">Fornecimento de Materiais</option>
+                            <option value="consultoria">Consultoria Industrial</option>
+                            <option value="topografia">Topografia e Agrimensura</option>
+                            <option value="outro">Outro</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <textarea name="mensagem" placeholder="Digite aqui sua solicitação" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Quero Meu Orçamento</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <section id="parceiros" class="parceiros-section">
+        <div class="container">
+            <h2 class="section-title">Clientes e fornecedores parceiros</h2>
+            <div class="parceiros-grid" aria-label="Clientes e fornecedores parceiros">
+                <div class="parceiro-item"><img src="images/parceiros/AGI.png" alt="AGI"></div>
+                <div class="parceiro-item"><img src="images/parceiros/bunge.png" alt="Bunge"></div>
+                <div class="parceiro-item"><img src="images/parceiros/ENGETINS.png" alt="ENGETINS"></div>
+                <div class="parceiro-item"><img src="images/parceiros/IMETAL.png" alt="IMETAL"></div>
+                <div class="parceiro-item"><img src="images/parceiros/QUALICON.jpg" alt="QUALICON"></div>
+                <div class="parceiro-item"><img src="images/parceiros/SRZ.png" alt="SRZ"></div>
+                <div class="parceiro-item"><img src="images/parceiros/SSI.png" alt="SSI"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>Escritório Regional</h4>
+                    <p><strong>Endereço:</strong></p>
+                    <p>Rua Monte Alegre, 45-A</p>
+                    <p>Parque Amazonas</p>
+                    <p>Imperatriz-MA</p>
+                    <p><strong>CNPJ:</strong> 67.012.700/0001-77</p>
+                    <p><strong>Inscrição estadual:</strong> 129633852</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Serviços</h4>
+                    <ul>
+                        <li><a href="#servicos">Engenharia Mecânica</a></li>
+                        <li><a href="#servicos">Segurança do Trabalho e Meio ambiente</a></li>
+                        <li><a href="#servicos">Fornecimento de Mão-de-Obra</a></li>
+                        <li><a href="#servicos">Engenharia Elétrica</a></li>
+                        <li><a href="#servicos">Fornecimento de Materiais</a></li>
+                        <li><a href="#servicos">Consultoria Corporativa e Industrial</a></li>
+                        <li><a href="#servicos">Topografia e Agrimensura</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contato</h4>
+                    <ul>
+                        <li>(99) 98275-5212</li>
+                        <li>comercial@industriallsolucoes.com.br</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Industriall Soluções. Todos os direitos reservados. Design por Industriall Soluções.</p>
+            </div>
+        </div>
+    </footer>
+
+    <a href="#home" class="back-to-top" aria-label="Voltar ao topo">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+
+    <script src="script.js"></script>
+</body>
+</html>
